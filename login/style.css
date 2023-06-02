@@ -1,0 +1,52 @@
+*{
+    margin:0px;
+    padding:0px;
+    border:none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+#navbar{
+    display:flex;
+    padding:20px 50px;
+    justify-content: space-between;
+    background-color: black;
+    color:white;
+    font-size: 18px;
+}
+.rightNav{
+    display:flex;
+    gap:30px;    
+}
+a{
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.7);
+}
+.nameInput{
+    display:flex;
+    flex-direction: column;
+    gap:30px;
+    padding:40px 30px;
+}
+.nameInput p{
+    font-size: 20px;
+}
+input{
+    border:1px solid black;
+    padding:10px;
+}
+input::placeholder{
+    color:black;
+}
+.btn{
+    width:120px;
+    padding:10px;
+    color:white;
+    background-color: black; 
+}
+.error{
+    color:red;
+
+}
+.success{
+    color:green;
+}

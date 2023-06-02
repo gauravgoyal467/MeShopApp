@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Cart</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <div class="leftNav">Shopping Cart</div>
+      <div class="rightNav">
+        <a href="../index.html">Home</a>
+        <a href="../login/index.html">Login</a>
+        <a href="../signUp/index.html">SignUp</a>
+        <a href="../cart/index.html">My Cart</a>
+        <a href="../profile/index.html">Profile</a>
+      </div>
+    </nav>
+    <div class="section">
+      <p>My Cart</p>
+      <span id="disp" class="error success"></span>
+      <div class="innerSection">
+        <div id="bagItem" class="product">
+          <div class="pro">
+            <div class="image">
+              <img src="../shop/tshirt.png" alt="">
+            </div>
+            <div class="tag">
+              <span class="title"> Title : Shirt</span>
+              <span class="price"> Price : $100</span>
+            </div>
+            <button  class="btn"> Remove From Cart</button>
+          </div>
+          <div class="pro">
+            <div class="image">
+              <img src="../shop/tshirt.png" alt="">
+            </div>
+            <div class="tag">
+              <span class="title"> Title : Shirt</span>
+              <span class="price"> Price : $100</span>
+            </div>
+            <button class="btn"> Remove From Cart</button>
+          </div>
+          <div class="pro">
+            <div class="image">
+              <img src="../shop/tshirt.png" alt="">
+            </div>
+            <div class="tag">
+              <span class="title"> Title : Shirt</span>
+              <span class="price"> Price : $100</span>
+            </div>
+            <button class="btn"> Remove From Cart</button>
+          </div>
+          <div class="pro">
+            <div class="image">
+              <img src="../shop/tshirt.png" alt="">
+            </div>
+            <div class="tag">
+              <span class="title"> Title : Shirt</span>
+              <span class="price"> Price : $100</span>
+            </div>
+            <button  class="btn"> Remove From Cart</button>
+          </div>
+        </div>
+        <div id="checkOut" class="checkOut">
+          <span>Checkout List</span>
+          <div class="items">
+            <div class="purchasedItem">
+              <div class="item">
+                <span>1.</span>
+                <span>shirt</span>
+              </div>
+              <p>$100</p>
+            </div>
+            <div class="purchasedItem">
+              <div class="item">
+                <span>1. Shirt</span>
+              </div>
+              <p>$100</p>
+            </div>
+            <div class="purchasedItem">
+              <div class="item">
+                <span>1. Shirt</span>
+              </div>
+              <p>$100</p>
+            </div>
+            <div class="purchasedItem">
+              <div class="item">
+                <span>1. Shirt</span>
+              </div>
+              <p>$100</p>
+            </div>
+          </div>
+          <div class="line"></div>
+          <div class="total">
+            <span>Total</span>
+            <p>$900</p>
+          </div>
+          <div class="line"></div>
+          <button id="checkOutBt" class="btn">Click To Checkout</button>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <script src="./script.js"></script>
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+  </body>
+</html>

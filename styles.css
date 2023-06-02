@@ -1,0 +1,64 @@
+*{
+    margin:0px;
+    padding:0px;
+    border:none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+#navbar{
+    display:flex;
+    padding:20px 50px;
+    justify-content: space-between;
+    background-color: black;
+    color:white;
+    font-size: 18px;
+}
+.rightNav{
+    display:flex;
+    gap:30px;    
+}
+a{
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.7);
+}
+.section1{
+    padding:10px 50px;
+}
+.section1  p{
+    font-size:50px;
+    font-weight: 500;
+    padding:10px 0px;
+    cursor: pointer;
+}
+.btn{
+    cursor: pointer;
+}
+.section2{
+    display:flex;
+    padding:10px 0px 0px 50px;
+    
+}
+.section2>.buttons{
+    width:35%;
+    display: flex;
+    gap:10px;
+    
+}
+.section2>.image{
+    width:75%;
+}
+img{
+    width:80%;
+    height:70vh
+}
+.btn{
+    height:35px;
+    width:30%;
+    background-color: black;
+    color:white;
+}
+#signUpBtn{
+    background-color: white;
+    color:rgb(0, 0, 0);
+    border:1px solid black;
+}

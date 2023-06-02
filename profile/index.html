@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Profile</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <nav id="profNavbar">
+      <div  id="cart" class="leftNav">Shopping Cart</div>
+      <a href="../shop/index.html">Shop</a>
+    </nav>
+    <div class="nameInput">
+      <p>My Profile</p>
+      <h3 id="display" class="error"></h3>
+      <span id= "name" class="name prof">Name :</span>
+      <span id="email" class="email prof">Email :</span>
+      <span id="token" class="token prof">Token :</span>
+      <br>
+      <input id="FirstName" type="text" placeholder="First Name">
+      <input id="LastName" type="text" placeholder="Last Name">
+      <button id="saveInfo" class="btn">Save Info</button>
+    </div>
+    <div class="passwordInput">
+      <p>Edit Password</p>
+      <input id="oldPassword" type="text" placeholder="Old Password">
+      <input id="newPassword" type="text" placeholder="New Password">
+      <input id="cnfNewPassword" type="text" placeholder="Confirm New Password">
+      <button id="changePass" class="btn">Change Password</button>
+      <button id="logout"class="btn">Logout</button>
+    </div>
+
+
+    <script src="./script.js" async defer></script>
+  </body>
+</html>

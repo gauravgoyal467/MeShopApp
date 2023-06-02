@@ -1,0 +1,82 @@
+/* Write your styles here */
+*{
+    margin:0px;
+    padding:0px;
+    border:none;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+#profNavbar{
+    display:flex;
+    padding:20px 40px;
+    justify-content: space-between;
+    background-color: black;
+    color:white;
+    font-size: 18px;
+}
+.leftNav{
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: rgba(238, 235, 232, 0.877);
+}
+.prof{
+    font-size: 20px;
+    font-weight: 600;
+}
+.nameInput{
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+    padding:10px 30px;
+
+}
+.nameInput p{
+    font-size: 30px;
+    font-weight: 800;
+    align-self: center;
+}
+#display{
+    font-weight: 600;
+    align-self: center;
+}
+.error{
+    color:red;
+}
+.success{
+    color:green;
+}
+input{
+    border:1px solid black;
+    padding:10px;
+}
+input::placeholder{
+    color:black;
+}
+.btn{
+    width:150px;
+    padding:10px;
+    color:white;
+    background-color: black; 
+    cursor: pointer;
+}
+.passwordInput{
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+    padding:10px 30px;
+
+}
+.passwordInput p{
+    font-size: 30px;
+    font-weight: 800;
+    align-self: center;
+}
+input{
+    border:1px solid black;
+    padding:10px;
+}
+input::placeholder{
+    color:black;
+}
